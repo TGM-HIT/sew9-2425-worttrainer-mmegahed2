@@ -20,6 +20,7 @@ public class WordTrainerGUI extends JFrame {
         buttons = new JPanel();
         tfield = new JTextField();
         image = new JLabel(new ImageIcon(""));
+        image.setSize(300,150);
         JButton submit = new JButton("Abschicken");
         JButton exit = new JButton("Beenden");
         panel.setLayout(new BorderLayout());
